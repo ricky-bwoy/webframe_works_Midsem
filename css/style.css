@@ -177,13 +177,13 @@ main h3{
 
 .comment-wrap{
 	padding: 15px;
-	width: 700px;
+	width: 300px;
 	margin: 0 auto;
 	display: grid;
 	grid-gap: 30px;
 	background: white;
 	border-radius: 10px;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: 1fr;
 }
 
 .comment-wrap form{
@@ -198,11 +198,7 @@ main h3{
 	margin: 0 5px;
 }
 
-.comment-wrap .comment{
-	padding: 10px;
-	//display: flex;
-	align-items: center;
-}
+
 
 .comment-wrap input, textarea{
 	width: 100%;
